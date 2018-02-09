@@ -2,8 +2,8 @@
 
 Scrape the entire Bitcoin chart history to JSON.
 
-![Screenshot](screenshot.jpg)
-
+## Note
+Some of the time stamp are not correct, check the data before using
 ## Install & Scrape
 
 ```shell
@@ -66,6 +66,8 @@ DONE!
 |------------|--------|--------|--------|--------|--------------|-------------------|----------------------|
 | 1419033600 | 318.58 | 318.58 | 318.58 | 318.58 |   0.01719605 |       5.478317609 |               318.58 |
 
+## Interval
+60 seceonds as interval, 'from' and 'to' are configurable
 
 ## Le Combine...
 
