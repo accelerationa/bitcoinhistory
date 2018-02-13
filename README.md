@@ -1,3 +1,6 @@
+This project is for using bitcoin history data to do auto-regression, but the prediction precision is bad!
+
+
 # Bitcoin Chart Scraper
 
 Scrape the entire Bitcoin chart history to JSON.
