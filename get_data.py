@@ -22,6 +22,8 @@ def get_avalible_json_files(start_date=date(2010, 1, 1), end_date=date(2050, 12,
 def get_cols_of_one_day_from_json(filename):
     _file = open(filename, "r")
     json = _file.read()
+    if json == '[]':
+        return []
     strs = json.split('],[')
     datas = []
     cols = []
